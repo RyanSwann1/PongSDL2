@@ -4,7 +4,6 @@
 
 #include "SDLGameObject.h"
 #include "Vector2.h"
-#include "MoveDirection.h"
 
 class Ball :
 	public SDLGameObject
@@ -30,12 +29,6 @@ public:
 	Vector2 calculateHitReflection(const SDLGameObject& paddle);
 	
 		
-	//virtual void update() = 0;
-	//virtual void draw() = 0;
-	//virtual void handleEvents() = 0;
-	//virtual std::string getTextureID() const = 0;
-	//virtual std::string getID() const = 0;
-	//virtual Vector2 getPos() const = 0;
 
 private:
 	int m_sizeWidth;
